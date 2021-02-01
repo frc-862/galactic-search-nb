@@ -15,5 +15,6 @@ Model trained here to be deployed to rPi running [mcqueen-vision](https://github
   - `B-RED` | Path B, Red Layout Images
 - `model-training.ipynb` | Jupyter Notebook to train Keras network
 - `convert.ipynb` | Jupyter Notebook to convert Keras network to TensorFlow format so it can be used by [OpenCv Dnn](https://docs.opencv.org/3.4/javadoc/org/opencv/dnn/Dnn.html)
-- `final-classifier.h5` | Keras model
-- `final-classifier.pb` | TensorFlow model to be deployed to pi
+- `opencv-inference.ipynb` | Jupyter Notebook to run inference via [OpenCv Dnn](https://docs.opencv.org/4.5.1/d6/d0f/group__dnn.html)
+- `path-classifier.h5` | Keras model
+- `path-classifier.pb` | TensorFlow model to be deployed to pi
