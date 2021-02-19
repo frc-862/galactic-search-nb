@@ -18,3 +18,4 @@ Model trained here to be deployed to rPi running [mcqueen-vision](https://github
 - `opencv-inference.ipynb` | Jupyter Notebook to run inference via [OpenCv Dnn](https://docs.opencv.org/4.5.1/d6/d0f/group__dnn.html)
 - `path-classifier.h5` | Keras model
 - `path-classifier.pb` | TensorFlow model to be deployed to pi
+- `get-frames.py` | Python script to save individual frames from `video/` to `input/`
